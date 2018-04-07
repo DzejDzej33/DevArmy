@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    width: 1000px;
+    color: black;
+    background-color: azure;
+
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(44, 146, 3);
+    margin-top: 0;
+}
+
+h2{
+    font-size: 22px;
+    color: brown;
+}
+
+h3{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+   
+}
+
+main{
+
+}
+
+article{
+
+}
+
+.shortlist{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.opis{
+    display: inline-block;
+    margin-left: 10px;
+    width: 300px;
+    vertical-align: top;
+}
+
+.poster{
+    display: inline-block;
+}
+
+.nazwafilmu{
+    display: inline-block;
+}
+
+.vinc-opis{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.jules-opis{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
