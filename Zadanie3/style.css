@@ -73,3 +73,11 @@ article{
     width: 300px;
     vertical-align: top;
 }
+
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
