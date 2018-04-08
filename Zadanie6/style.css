@@ -1,0 +1,114 @@
+body {
+  background-color: #995a54;
+}
+
+main {
+margin: 100px auto;
+  width: 400px;
+  height: 440px;
+  background-color: white;
+  -webkit-box-shadow: 8px 8px 40px 9px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 8px 8px 40px 9px rgba(0, 0, 0, 0.71);
+  box-shadow: 8px 8px 40px 9px rgba(0, 0, 0, 0.71);
+}
+
+.card {
+  object-fit: contain;
+}
+
+.posted-22december-2 {
+  width: 190px;
+  height: 12px;
+  font-family: .SFNSText;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #808080;
+}
+.posted-22december-2 .text-style-1 {
+  letter-spacing: normal;
+}
+
+#DESIGN {
+  width: 57px;
+  height: 12px;
+  font-family: .SFNSText;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #808080;
+}
+#DESIGN .text-style-1 {
+  letter-spacing: normal;
+}
+
+.posted {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.How-to-create-beauti {
+  width: 360px;
+  height: 66px;
+  font-family: .SFNSDisplay;
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.Typography-is-the {
+  width: 360px;
+  height: 36px;
+  font-family: .SFNSText;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d4d4d;
+}
+
+.Rectangle-1 {
+  width: 399px;
+  height: 60px;
+  background-color: #fafafa;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 21px;
+  height: 13px;
+  object-fit: contain;
+}
+
+.read-article {
+  height: 15px;
+  font-family: .SFNSText;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #4d4d4d;
+}
