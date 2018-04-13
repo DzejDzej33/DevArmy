@@ -1,0 +1,41 @@
+html{
+    width: auto;
+    height: auto;
+    overflow: auto;
+    background-color: #0A3184;
+}
+
+body{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+nav{
+    padding-top: 200px;
+}
+.photo {
+    width: auto;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(70%);
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li {
+    padding: 10PX 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 100px;
+    background-color: #219cdc;
+  }
