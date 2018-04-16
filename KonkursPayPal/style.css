@@ -23,6 +23,8 @@ nav{
 
   h1 {
       text-align: center;
+      font-size: 50px;
+      color: whitesmoke;
   }
 
   ul {
@@ -38,4 +40,21 @@ nav{
     border: 2px solid whitesmoke;
     border-radius: 100px;
     background-color: #219cdc;
+    font-size: 20px;
+  }
+
+  main {
+      margin-top: 290px;
+      background-color: #219cdc;    
+  }
+
+  h2 {
+      text-align: center;
+      color: rgb(155, 0, 0);
+  }
+
+  p {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid whitesmoke;
   }
