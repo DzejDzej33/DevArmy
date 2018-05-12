@@ -1,83 +1,119 @@
-body{
-    margin: 0 auto;
-    width: 1000px;
-    color: black;
-    background-color: azure;
-
+body {
+  margin: 0 auto;
+  width: 1000px;
+  color: black;
+  background-color: azure;
 }
 
-ul{
-    list-style: none;
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
 }
 
-h1{
-    font-size: 35px;
-    color: rgb(44, 146, 3);
-    margin-top: 0;
+ul {
+  list-style: none;
 }
 
-h2{
-    font-size: 22px;
-    color: brown;
+h1 {
+  font-size: 35px;
+  color: rgb(44, 146, 3);
+  margin-top: 0;
 }
 
-h3{
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h2 {
+  font-size: 22px;
+  color: brown;
 }
 
-header{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h3 {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-nav{
-   
+@media (max-width: 500px) {
+  .mobilehide {
+    display: none;
+  }
 }
 
-main{
-
+header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-article{
-
+nav {
 }
 
-.shortlist{
-    display: inline-block;
-    margin-left: 10px;
+main {
 }
 
-.opis{
-    display: inline-block;
-    margin-left: 10px;
-    width: 300px;
-    vertical-align: top;
+article {
 }
 
-.poster{
-    display: inline-block;
+.shortlist {
+  display: inline-block;
+  margin-left: 10px;
 }
 
-.nazwafilmu{
-    display: inline-block;
+.opis {
+  display: inline-block;
+  margin-left: 10px;
+  width: 300px;
+  vertical-align: top;
 }
 
-.vinc-opis{
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
+@media (max-width: 500px) {
+  .opis {
+    width: 30%;
+  }
 }
 
-.jules-opis{
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
+.poster {
+  display: inline-block;
+}
+
+@media (max-width: 500px) {
+  .poster img {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+.nazwafilmu {
+  display: inline-block;
+}
+
+.vinc-opis {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+@media (max-width: 500px) {
+  .vinc-opis {
+    width: 50%;
+  }
+}
+
+.jules-opis {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+@media (max-width: 500px) {
+  .jules-opis {
+    width: 50%;
+  }
 }
 
 table {
-    border-collapse: collapse;
-  }
-  
-  table, th, td {
-    border: 1px solid black;
-  }
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
